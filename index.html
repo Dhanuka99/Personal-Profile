@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dhanuka Lakshan</title>
+    <link rel="stylesheet" href="css/normalize%20-%20CSS%20Reset%20Library.css">
+    <style>
+        body{
+            overflow-x: hidden;
+            background: #27292e;
+        }
+    section{
+        width: 100vw;
+        height:200vh ;
+        border: 1px solid red;
+    }
+    #cover{
+        width: 100vw;
+        height: 65vh;
+        border: 1px solid yellow;
+        /*background: #dc143c;*/
+    }
+#cover>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#navigation{
+    width: 100vw;
+    height: 60px;
+    background: orange;
+    position: fixed;
+    z-index: 10;
+
+
+}
+#navigation>ul{
+    list-style-type: none;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   /* margin: auto;*/
+
+}
+        #navigation>ul>li{
+           display: inline;
+            margin-left: 95px;
+
+        }
+        #Description{
+            width: 60vw;
+            height: 70vh;
+            background: lightblue;
+            position: absolute;
+            top: 127px;
+            right: 0;
+            left: 0;
+            margin: auto;
+            z-index: 2;
+
+        }
+        #profile_pic{
+            width: 303px;
+            height: 397px;
+            background: purple;
+
+
+        }
+        #profile_pic>img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border: 1px solid green;
+        }
+        #content_1{
+            width: 520px;
+            height: 126px;
+            background: green;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        #social{
+            width: 100%;
+            height:40px ;
+           background: #DD4760;
+            position: absolute;
+
+            bottom: 0;
+        }
+        #content_2{
+            width: 422px;
+            height: 163px;
+            display: grid;
+            position: absolute;
+            top: 164px;
+            right: 33px;
+            grid-template-rows: repeat(5,1fr);
+            grid-template-columns: repeat(2,1fr);
+
+        }
+        #content_2>div{
+            border: 1px solid red;
+
+        }#social>div>img{
+            height: 100%;
+            width: auto;
+            margin-right: 20px;
+
+                 }
+#social>div{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 4px;
+
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+    </style>
+</head>
+<body>
+<section>
+    <div id="navigation">
+        <ul>
+            <li>Home</li>
+            <li>Skills</li>
+            <li>Education</li>
+            <li>Assignments</li>
+            <li>Projects</li>
+            <li>Interests</li>
+            <li style="margin-right: 0">About</li>
+        </ul>
+    </div>
+
+<div id="cover">
+    <img src="asserts/2new.jpg" alt="Cover_photo">
+</div>
+    <div id="Description">
+    <aside id="profile_pic">
+        <img src="asserts/3.jpg" alt="Profile_picture">
+    </aside>
+        <article id="content_1">
+            <h1>I'm Dhanuka Lakshan</h1>
+            <h3>web Developer | Designer</h3>
+            <hr>
+        </article>
+        <article id="content_2">
+           <div>Age</div>
+            <div>20</div>
+            <div>Address</div>
+            <div>Kurunegala</div>
+            <div>Email</div>
+            <div>danuka1999lakshan@gmail.com</div>
+            <div>Phone</div>
+            <div>077 8090 357</div>
+            <div>Country</div>
+            <div>Sri lanka</div>
+        </article>
+        <div id="social">
+            <div>
+                <img src="asserts/facebook.png" alt="">
+                <img src="asserts/twitter.png" alt="">
+                <img src="asserts/github(1).png" alt="">
+            </div>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
