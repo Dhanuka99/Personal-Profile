@@ -164,3 +164,49 @@ section{
     margin: auto;
     font-size: 42px;
 }
+#line_prograss{
+    width: 650px;
+    height: 55vh;
+    position: absolute;
+    left: 15px;
+    right: 0;
+    background: #35363B;
+    top: 1019px;
+}
+#circle_prograss{
+    width: 650px;
+    height: 55vh;
+    position: absolute;
+    right: 15px;
+
+    background: #35363B;
+    top: 1019px;
+}
+
+/*#Education{
+    color: #DEDEDE;
+    width: 261px;
+    height: 104px;
+    position: absolute;
+    top: 1462px;
+    bottom: 0;
+    left: 591px;
+    margin: auto;
+    font-size: 42px;
+}*/
+
+/*#qualification{
+    width: 500px;
+    height: 100vh;
+    background: #DD4760;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    font-family: sans-serif;
+    padding: 0;
+    list-style: none;
+
+}*/
+
