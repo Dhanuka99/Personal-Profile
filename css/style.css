@@ -1,0 +1,166 @@
+
+body{
+    overflow-x: hidden;
+    background: #27292e;
+}
+section{
+    width: 100vw;
+    height:200vh ;
+   /* border: 1px solid red;*/
+}
+#cover{
+    width: 100vw;
+    height: 65vh;
+   /* border: 1px solid yellow;*/
+    /*background: #dc143c;*/
+}
+#cover>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#navigation{
+    width: 100vw;
+    height: 60px;
+    background: #3D4451;
+    position: fixed;
+    z-index: 10;
+
+
+}
+#navigation>ul{
+    list-style-type: none;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* margin: auto;*/
+
+}
+#navigation>ul>li{
+    display: inline;
+    margin-left: 95px;
+    color: aliceblue;
+    font-family: Arial;
+
+
+}
+#Description{
+    width: 60vw;
+    height: 70vh;
+    background: #3D4451;
+    position: absolute;
+    top: 186px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 2;
+
+}
+#profile_pic{
+    width: 303px;
+    height: 397px;
+   /* background: purple;*/
+
+
+}
+#profile_pic>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+   /* border: 1px solid green;*/
+}
+#content_1{
+    width: 514px;
+    height: 126px;
+    background: #3D4451;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #DEDEDE;
+}
+#content_1>h1{
+    margin-bottom: -18px;
+    margin-top: 55px;
+}
+#social{
+    width: 100%;
+    height:40px ;
+    background: #DD4760;
+    position: absolute;
+
+    bottom: 0;
+}
+#content_2{
+    width: 381px;
+    height: 163px;
+    display: grid;
+    position: absolute;
+    top: 172px;
+    right: 70px;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(2,1fr);
+    border-style: none;
+    color: #DEDEDE;
+    font-family: Arial;
+
+}
+#content_2>div{
+  /*  border: 1px solid red;*/
+
+}#social>div>img{
+     height: 100%;
+     width: auto;
+     margin-right: 20px;
+
+ }
+#social>div{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 4px;
+
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#aboutme{
+    color: #DEDEDE;
+    width: 261px;
+    height: 104px;
+    position: absolute;
+    top: 722px;
+    bottom: 0;
+    right: 0px;
+    left: 82px;
+    margin: auto;
+    font-size: 43px;
+    font-style: normal;
+}
+#about_content{
+    width: 100%;
+    height: 22vh;
+    position: absolute;
+    background: #35363B;
+    color: #6D6D6D;
+    font-family: Arial;
+    font-size: 24px;
+    top: 751px;
+
+}
+
+#skills{
+    color: #DEDEDE;
+  /*  width: 261px;*/
+    height: 104px;
+    position: absolute;
+    top: 988px;
+    bottom: 0;
+    right: 25px;
+    left: 536px;
+    margin: auto;
+    font-size: 42px;
+}
